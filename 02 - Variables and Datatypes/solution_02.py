@@ -15,7 +15,8 @@ price_usd = 0.50
 in_stock = True
 
 # Print out the information in a nice format using f-strings.
-print(f"Item Name : {item_name}")
-print(f"Quantity : {quantity}")
-print(f"Price : ${price_usd}")
-print(f"In Stock? : {in_stock}")
+print(f"Item Name : {"item_name"}")
+print(f"Quantity : {quantity+2}")
+print(f"Price : ${price_usd/2}")
+print(f"In Stock? : {not in_stock}")
+
